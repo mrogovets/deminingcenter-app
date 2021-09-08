@@ -4,6 +4,11 @@ import "./Slider.css";
 
 import M from "materialize-css";
 
+import deminingCenter1 from "../../pictures/deminingCenter1.jpg";
+import deminingCenter2 from "../../pictures/deminingCenter2.jpg";
+import deminingCenter3 from "../../pictures/deminingCenter3.jpg";
+import deminingCenter4 from "../../pictures/deminingCenter4.jpg";
+
 export const Slider = () => {
   useEffect(() => {
     const elem = document.querySelector(".carousel");
@@ -21,16 +26,16 @@ export const Slider = () => {
     <div>
       <div className="carousel carousel-slider">
         <a className="carousel-item" href="#one!">
-          <img src="https://lorempixel.com/800/400/food/1" alt="sliderImg1" />
+          <img src={deminingCenter1} alt="sliderImg1" />
         </a>
         <a className="carousel-item" href="#two!">
-          <img src="https://lorempixel.com/800/400/food/2" alt="sliderImg2" />
+          <img src={deminingCenter2} alt="sliderImg2" />
         </a>
         <a className="carousel-item" href="#three!">
-          <img src="https://lorempixel.com/800/400/food/3" alt="sliderImg3" />
+          <img src={deminingCenter3} alt="sliderImg3" />
         </a>
         <a className="carousel-item" href="#four!">
-          <img src="https://lorempixel.com/800/400/food/4" alt="sliderImg4" />
+          <img src={deminingCenter4} alt="sliderImg4" />
         </a>
       </div>
     </div>
