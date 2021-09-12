@@ -3,3 +3,8 @@
   a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
   color: #64b5f6;
 }
+
+img {
+  margin-top: 30px;
+  margin-left: 15px;
+}

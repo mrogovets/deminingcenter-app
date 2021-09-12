@@ -1,4 +1,9 @@
 .cards-container {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.cards-container > div {
+  flex: 0 0 33.333333%;
 }
