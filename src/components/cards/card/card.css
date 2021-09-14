@@ -8,3 +8,7 @@ img {
   margin-top: 30px;
   margin-left: 15px;
 }
+
+.card-content {
+  height: 136px;
+}

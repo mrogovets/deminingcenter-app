@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./NavPanel.css";
 
 import M from "materialize-css";
+import LogoImg from "../../pictures/LogoDMHC.png";
 
 export const NavPanel = () => {
   useEffect(() => {
@@ -26,7 +27,10 @@ export const NavPanel = () => {
       <nav>
         <div className="nav-wrapper">
           <a href="#!" className="brand-logo">
-            Logo
+            <div className="logo-imgs">
+              <img className="logo-img" src={LogoImg} alt="logo" />
+              <span>Центр підготовки гуманітарного розмінування</span>
+            </div>
           </a>
           <ul className="right hide-on-med-and-down">
             <li>
