@@ -4,10 +4,10 @@ import "./Slider.css";
 
 import M from "materialize-css";
 
-import deminingCenter1 from "../../pictures/deminingCenter1.jpg";
-import deminingCenter2 from "../../pictures/deminingCenter2.jpg";
-import deminingCenter3 from "../../pictures/deminingCenter3.jpg";
-import deminingCenter4 from "../../pictures/deminingCenter4.jpg";
+import deminingCenter1 from "../../pictures/deminingCenter-1.jpg";
+import deminingCenter2 from "../../pictures/deminingCenter-2.jpg";
+import deminingCenter3 from "../../pictures/deminingCenter-3.jpg";
+import deminingCenter4 from "../../pictures/deminingCenter-4.jpg";
 
 export const Slider = () => {
   useEffect(() => {
