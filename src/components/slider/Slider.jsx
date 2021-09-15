@@ -26,16 +26,32 @@ export const Slider = () => {
     <div>
       <div className="carousel carousel-slider">
         <a className="carousel-item" href="#one!">
-          <img src={deminingCenter1} alt="sliderImg1" />
+          <img
+            className="carousel-img"
+            src={deminingCenter1}
+            alt="sliderImg1"
+          />
         </a>
         <a className="carousel-item" href="#two!">
-          <img src={deminingCenter2} alt="sliderImg2" />
+          <img
+            className="carousel-img"
+            src={deminingCenter2}
+            alt="sliderImg2"
+          />
         </a>
         <a className="carousel-item" href="#three!">
-          <img src={deminingCenter3} alt="sliderImg3" />
+          <img
+            className="carousel-img"
+            src={deminingCenter3}
+            alt="sliderImg3"
+          />
         </a>
         <a className="carousel-item" href="#four!">
-          <img src={deminingCenter4} alt="sliderImg4" />
+          <img
+            className="carousel-img"
+            src={deminingCenter4}
+            alt="sliderImg4"
+          />
         </a>
       </div>
     </div>

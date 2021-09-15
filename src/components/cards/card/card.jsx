@@ -7,7 +7,7 @@ export const Card = ({ img, title }) => {
     <div className="col s12 m7">
       <div className="card horizontal">
         <div className="card-image">
-          <img src={img} alt="img" />
+          <img className="cardImg" src={img} alt="img" />
         </div>
         <div className="card-stacked">
           <div className="card-content">

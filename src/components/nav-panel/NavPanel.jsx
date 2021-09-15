@@ -29,20 +29,21 @@ export const NavPanel = () => {
           <a href="#!" className="brand-logo">
             <div className="logo-imgs">
               <img className="logo-img" src={LogoImg} alt="logo" />
-              <span>Центр підготовки гуманітарного розмінування</span>
+              <h5>Центр підготовки гуманітарного розмінування</h5>
             </div>
           </a>
           <ul className="right hide-on-med-and-down">
             <li>
-              <a href="sass.html">Sass</a>
+              <a href="sass.html">Про Центр</a>
             </li>
             <li>
-              <a href="badges.html">Components</a>
+              <a href="badges.html">З'язатися з нами</a>
             </li>
             {/* <!-- Dropdown Trigger --> */}
             <li>
               <a className="dropdown-trigger" href="#!" data-target="dropdown1">
-                Dropdown<i className="material-icons right">arrow_drop_down</i>
+                Керівні документи
+                <i className="material-icons right">arrow_drop_down</i>
               </a>
             </li>
           </ul>
