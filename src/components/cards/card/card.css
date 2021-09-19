@@ -12,3 +12,9 @@
 .card-content {
   height: 136px;
 }
+
+@media (max-width: 960px) {
+  .card-content {
+    height: 256px;
+  }
+}

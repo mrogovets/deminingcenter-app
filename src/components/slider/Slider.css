@@ -5,3 +5,9 @@
 .carousel-img {
   margin-top: 10px;
 }
+
+@media (max-width: 1250px) {
+  .carousel .indicators {
+    background-color: #64b5f6;
+  }
+}

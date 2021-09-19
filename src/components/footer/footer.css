@@ -73,3 +73,9 @@
   text-decoration: underline;
   margin-left: 1rem;
 }
+
+@media (max-width: 960px) {
+  .footer-logo-img {
+    max-width: 20%;
+  }
+}

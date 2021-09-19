@@ -1,4 +1,4 @@
-.nav-wrapper {
+.nav-main {
   background-color: #01579b;
 }
 
@@ -10,6 +10,39 @@
   margin: 0;
   padding: 0;
   max-width: 67px;
-  margin-left: 1rem;
-  margin-right: 3rem;
 }
+
+@media (max-width: 1250px) {
+  .logo-text {
+    font-size: 1.3rem;
+    margin-top: 1.4rem;
+  }
+}
+
+@media (max-width: 960px) {
+  .nav-main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #01579b;
+  }
+
+  .logo-img {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    max-height: 67px;
+    margin-right: 1rem;
+  }
+  .logo-text {
+    font-size: 1rem;
+    margin-top: 0px;
+    max-width: 5rem;
+  }
+}
+
+/*@media (max-width: 840px) {
+
+}
+
+@media (max-width: 760px) {
+
+} */
