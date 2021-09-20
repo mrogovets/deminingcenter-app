@@ -62,4 +62,14 @@
       margin-top: 12px;
     }
   }
+
+  @media (max-width: 380px) {
+    .logo-img {
+      height: 60px;
+      width: 60px;
+    }
+    .logo-text {
+      margin-top: 5px;
+    }
+  }
 }
