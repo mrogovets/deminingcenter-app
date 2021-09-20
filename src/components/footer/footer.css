@@ -79,3 +79,28 @@
     max-width: 20%;
   }
 }
+
+@media (max-width: 760px) {
+  .footer-logo-img {
+    width: 75px;
+    height: 75px;
+    margin-top: 2rem;
+  }
+  .name-and-slogan {
+    margin-top: 0rem;
+  }
+  .footer-logo {
+    margin-top: 0rem;
+  }
+
+  .container-footer {
+    padding: 0;
+  }
+
+  .footer--copyright {
+    height: 70px;
+  }
+  .right {
+    float: left !important;
+  }
+}

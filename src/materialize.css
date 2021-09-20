@@ -4411,6 +4411,22 @@ nav .brand-logo.center {
   }
 }
 
+@media only screen and (max-width: 840px) {
+  nav .brand-logo {
+    left: 10%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  nav .brand-logo {
+    left: 35%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}
+
 nav .brand-logo.right {
   right: 0.5rem;
   padding: 0;

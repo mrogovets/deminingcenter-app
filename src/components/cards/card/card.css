@@ -17,4 +17,10 @@
   .card-content {
     height: 256px;
   }
+
+  @media (max-width: 450px) {
+    .cards-container {
+      justify-content: space-around;
+    }
+  }
 }

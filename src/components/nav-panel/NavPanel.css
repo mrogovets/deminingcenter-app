@@ -39,10 +39,27 @@
   }
 }
 
-/*@media (max-width: 840px) {
-
+@media (max-width: 840px) {
 }
 
 @media (max-width: 760px) {
+  .carousel {
+    display: none;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .logo-text {
+    max-width: 25rem;
+    margin-top: 5px;
+  }
+  .logo-img {
+    max-width: 60px;
+  }
 
-} */
+  @media (max-width: 450px) {
+    .logo-text {
+      margin-top: 12px;
+    }
+  }
+}

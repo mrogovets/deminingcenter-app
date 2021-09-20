@@ -156,7 +156,7 @@ export const Footer = () => {
             захищені
           </span>
           <a
-            className="grey-text text-lighten-4 right"
+            className="grey-text text-lighten-4 right send-email"
             target="_blank"
             rel="noopener noreferrer"
             href="mailto:email@gmail.com">
