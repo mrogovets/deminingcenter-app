@@ -12,6 +12,25 @@
   max-width: 67px;
 }
 
+.m-menu {
+  border: none;
+  width: 35px;
+  height: 30px;
+  background-color: transparent;
+  padding: 0;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.m-menu .line {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+}
+
 @media (max-width: 1250px) {
   .logo-text {
     font-size: 1.3rem;
@@ -48,6 +67,11 @@
   }
   .nav-menu {
     display: none;
+  }
+  .m-menu {
+    display: flex;
+    margin-top: 11px;
+    margin-right: 24px;
   }
   .logo-text {
     max-width: 25rem;
