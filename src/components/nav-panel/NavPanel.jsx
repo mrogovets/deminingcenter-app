@@ -2,9 +2,11 @@ import React, { useEffect, useState } from "react";
 import "./NavPanel.css";
 
 import M from "materialize-css";
-import LogoImg from "../../pictures/LogoDMHC.png";
+import LogoImg from "../../pictures/LogoDMHC_new.png";
 
 import { MmenuIPad } from "../M-Menu/IPad-mini/MmenuIPad.jsx";
+
+// Humanitarian Demining Training Center” Limited Liability Company
 
 export const NavPanel = () => {
   const [menuActive, setmenuActive] = useState(false);

@@ -15,12 +15,26 @@
 .footer-logo-img {
   margin: 0;
   padding: 0;
+  margin-right: 1rem;
+  height: 120px;
 }
 
 .name-and-slogan {
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
+  margin-top: 1rem;
+}
+
+.address {
+  margin-top: 1.5rem;
+  margin-left: -170px;
+  display: flex;
+  flex-direction: column;
+}
+
+.address-text-title {
+  margin-bottom: 0;
+  text-decoration: underline;
 }
 
 .page-footer {
@@ -77,6 +91,9 @@
 @media (max-width: 960px) {
   .footer-logo-img {
     max-width: 20%;
+  }
+  .address {
+    display: none;
   }
 }
 

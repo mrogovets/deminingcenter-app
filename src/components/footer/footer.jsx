@@ -2,7 +2,7 @@ import React from "react";
 
 import "./footer.css";
 
-import LogoImg from "../../pictures/LogoDMHC.png";
+import LogoImg from "../../pictures/ЦПГРV.png";
 import modlogo from "../../pictures/modlogo.svg";
 
 export const Footer = () => {
@@ -16,9 +16,15 @@ export const Footer = () => {
               <h5 className="white-text">
                 Центр підготовки гуманітарного розмінування
               </h5>
-              <p className="grey-text text-lighten-4">
-                За все хороше, проти всього поганого
-              </p>
+              <p className="grey-text text-lighten-4">Fortes fortuna adiuvat</p>
+              <div className="address">
+                <h5 className="address-text-title">Наша адреса: </h5>
+                <h6 className="address-text">
+                  32300, Україна, Хмельницька область, м. Кам’янець-Подільський,{" "}
+                  <br />
+                  вул. Крип’яткевича, 2а.
+                </h6>
+              </div>
             </div>
           </div>
           <div className="col l4 offset-l2 s12">
@@ -160,7 +166,7 @@ export const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
             href="mailto:email@gmail.com">
-            Надіслати нам листа:{" "}
+            Надіслати нам листа:
             <span className="my-email">email@gmail.com</span>
           </a>
         </div>

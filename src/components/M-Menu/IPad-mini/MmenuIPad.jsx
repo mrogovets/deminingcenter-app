@@ -7,7 +7,7 @@ import MMenuClose from "../pictures/menu-close.svg";
 import iconTlg from "../pictures/icon-tlg.svg";
 import iconFB from "../pictures/icon-fb.svg";
 import iconInsta from "../pictures/icon-insta.svg";
-import LogoImg from "../../../pictures/LogoDMHC.png";
+import LogoImg from "../../../pictures/LogoDMHC_new.png";
 
 export const MmenuIPad = ({ menuActive, stateActive }) => {
   const closeBtnonClickHandler = () => {

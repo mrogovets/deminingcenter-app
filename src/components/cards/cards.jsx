@@ -86,7 +86,12 @@ export const Cards = () => {
     return (
       <div className="cards-container">
         {items.map((item, i) => (
-          <Card img={imgIcons[i]} title={item.title} key={item.id} />
+          <Card
+            img={imgIcons[i]}
+            title={item.title}
+            key={item.id}
+            linkDoc={item.linkDoc}
+          />
         ))}
       </div>
     );

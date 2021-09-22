@@ -4,10 +4,16 @@ import "./Slider.css";
 
 import M from "materialize-css";
 
-import deminingCenter1 from "../../pictures/deminingCenter-1.jpg";
-import deminingCenter2 from "../../pictures/deminingCenter-2.jpg";
-import deminingCenter3 from "../../pictures/deminingCenter-3.jpg";
-import deminingCenter4 from "../../pictures/deminingCenter-4.jpg";
+import deminingCenter1 from "../../pictures/deminingCenter-01.jpg";
+import deminingCenter2 from "../../pictures/deminingCenter-02.jpg";
+import deminingCenter4 from "../../pictures/deminingCenter-04.jpg";
+import deminingCenter5 from "../../pictures/deminingCenter-05.jpg";
+import deminingCenter6 from "../../pictures/deminingCenter-06.jpg";
+import deminingCenter7 from "../../pictures/deminingCenter-07.jpg";
+import deminingCenter8 from "../../pictures/deminingCenter-08.jpg";
+import deminingCenter9 from "../../pictures/deminingCenter-09.jpg";
+import deminingCenter10 from "../../pictures/deminingCenter-10.jpg";
+import deminingCenter11 from "../../pictures/deminingCenter-11.jpg";
 
 export const Slider = () => {
   useEffect(() => {
@@ -39,18 +45,67 @@ export const Slider = () => {
             alt="sliderImg2"
           />
         </a>
-        <a className="carousel-item" href="#three!">
+        {/* <a className="carousel-item" href="#three!">
           <img
             className="carousel-img"
             src={deminingCenter3}
             alt="sliderImg3"
           />
-        </a>
+        </a> */}
         <a className="carousel-item" href="#four!">
           <img
             className="carousel-img"
             src={deminingCenter4}
             alt="sliderImg4"
+          />
+        </a>
+        <a className="carousel-item" href="#five!">
+          <img
+            className="carousel-img"
+            src={deminingCenter5}
+            alt="sliderImg5"
+          />
+        </a>
+        <a className="carousel-item" href="#six!">
+          <img
+            className="carousel-img"
+            src={deminingCenter6}
+            alt="sliderImg6"
+          />
+        </a>
+        <a className="carousel-item" href="#seven!">
+          <img
+            className="carousel-img"
+            src={deminingCenter7}
+            alt="sliderImg7"
+          />
+        </a>
+        <a className="carousel-item" href="#eight!">
+          <img
+            className="carousel-img"
+            src={deminingCenter8}
+            alt="sliderImg8"
+          />
+        </a>
+        <a className="carousel-item" href="#nine!">
+          <img
+            className="carousel-img"
+            src={deminingCenter9}
+            alt="sliderImg9"
+          />
+        </a>
+        <a className="carousel-item" href="#ten!">
+          <img
+            className="carousel-img"
+            src={deminingCenter10}
+            alt="sliderImg11"
+          />
+        </a>
+        <a className="carousel-item" href="#eleven!">
+          <img
+            className="carousel-img"
+            src={deminingCenter11}
+            alt="sliderImg11"
           />
         </a>
       </div>
