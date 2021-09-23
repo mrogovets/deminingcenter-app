@@ -167,7 +167,7 @@ export const Footer = () => {
             rel="noopener noreferrer"
             href="mailto:email@gmail.com">
             Надіслати нам листа:
-            <span className="my-email">email@gmail.com</span>
+            <span className="my-email">ilya111slid@gmail.com</span>
           </a>
         </div>
       </div>
