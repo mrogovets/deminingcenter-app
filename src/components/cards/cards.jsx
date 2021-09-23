@@ -27,7 +27,7 @@ import wallet from "./pictures/wallet.png";
 import financeReport from "./pictures/financeReport.png";
 import financeHelp from "./pictures/financeHelp.png";
 
-export const Cards = () => {
+export const Cards = ({ showModal }) => {
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const [items, setItems] = useState([]);
@@ -91,6 +91,7 @@ export const Cards = () => {
             title={item.title}
             key={item.id}
             linkDoc={item.linkDoc}
+            showModal={showModal}
           />
         ))}
       </div>

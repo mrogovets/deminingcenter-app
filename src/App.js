@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
 import Modal from "react-modal";
 
 import "./App.css";
@@ -32,39 +31,49 @@ function App() {
 
   function afterOpenModal() {
     // references are now sync'd and can be accessed.
-    subtitle.style.color = "#f00";
+    subtitle.style.color = "#1a237e";
+    subtitle.style.textAlign = "center";
   }
 
   function closeModal() {
     setIsOpen(false);
   }
 
+  const showModalHandel = (flag) => {
+    if (flag) {
+      openModal();
+    }
+  };
+
   return (
     <div className="App">
       <NavPanel />
       <Slider />
-      <Cards />
+      <Cards showModal={(flag) => showModalHandel(flag)} />
       <Footer />
-      <div>
-        <button onClick={openModal}>Open Modal</button>
-        <Modal
-          isOpen={modalIsOpen}
-          onAfterOpen={afterOpenModal}
-          onRequestClose={closeModal}
-          style={customStyles}
-          contentLabel="Example Modal">
-          <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Hello</h2>
-          <button onClick={closeModal}>close</button>
-          <div>I am a modal</div>
-          <form>
-            <input />
-            <button>tab navigation</button>
-            <button>stays</button>
-            <button>inside</button>
-            <button>the modal</button>
-          </form>
-        </Modal>
-      </div>
+      <Modal
+        isOpen={modalIsOpen}
+        onAfterOpen={afterOpenModal}
+        onRequestClose={closeModal}
+        style={customStyles}
+        contentLabel="Example Modal">
+        <div
+          className="modal-content"
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+          }}>
+          <h5 ref={(_subtitle) => (subtitle = _subtitle)}>
+            Увага!
+            <br />
+            Сайт працює в тестовому режимі. Певні елементи є неактивними. <br />{" "}
+            Адміністрація сайту приносить вибачення за тимчасові незручності...
+          </h5>
+          <button onClick={closeModal}>Закрити</button>
+        </div>
+      </Modal>
     </div>
   );
 }

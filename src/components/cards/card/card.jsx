@@ -2,11 +2,14 @@ import React from "react";
 
 import "./card.css";
 
-export const Card = ({ img, title, linkDoc }) => {
+export const Card = ({ img, title, linkDoc, showModal }) => {
+  const showModalActivate = () => {
+    showModal(true);
+  };
   const renderHandler = () => {
     if (linkDoc === "") {
       return (
-        <div className="card-action">
+        <div className="card-action" onClick={showModalActivate}>
           <a href="#!">Докладніше</a>
         </div>
       );
