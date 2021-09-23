@@ -4,6 +4,8 @@ import "./footer.css";
 
 import LogoImg from "../../pictures/ЦПГРV.png";
 import modlogo from "../../pictures/modlogo.svg";
+import humanDeminingCenter from "../../pictures/deminingCenterDSNS.png";
+import logoCopUa from "../../pictures/NacPol.png";
 
 export const Footer = () => {
   return (
@@ -33,6 +35,7 @@ export const Footer = () => {
               <a
                 className="partners-link"
                 rel="noopener noreferrer"
+                target="_blank"
                 href="https://www.mil.gov.ua/">
                 <img
                   className="footer-patner-img"
@@ -43,20 +46,22 @@ export const Footer = () => {
               <a
                 className="partners-link"
                 rel="noopener noreferrer"
-                href="https://www.mil.gov.ua/">
+                target="_blank"
+                href="https://mcgr.dsns.gov.ua/">
                 <img
                   className="footer-patner-img"
-                  src={modlogo}
+                  src={humanDeminingCenter}
                   alt="partner-img"
                 />
               </a>
               <a
                 className="partners-link"
                 rel="noopener noreferrer"
-                href="https://www.mil.gov.ua/">
+                target="_blank"
+                href="https://www.npu.gov.ua/">
                 <img
                   className="footer-patner-img"
-                  src={modlogo}
+                  src={logoCopUa}
                   alt="partner-img"
                 />
               </a>
