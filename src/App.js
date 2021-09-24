@@ -4,9 +4,9 @@ import Modal from "react-modal";
 import "./App.css";
 import "./materialize.css";
 import { NavPanel } from "./components/nav-panel/NavPanel";
-import { Slider } from "./components/slider/Slider";
 import { Footer } from "./components/footer/footer";
-import { Cards } from "./components/cards/cards";
+import { Content } from "./components/content/content";
+import { BrowserRouter as Router } from "react-router-dom";
 
 const customStyles = {
   content: {
@@ -46,35 +46,37 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <NavPanel />
-      <Slider />
-      <Cards showModal={(flag) => showModalHandel(flag)} />
-      <Footer />
-      <Modal
-        isOpen={modalIsOpen}
-        onAfterOpen={afterOpenModal}
-        onRequestClose={closeModal}
-        style={customStyles}
-        contentLabel="Example Modal">
-        <div
-          className="modal-content"
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-          }}>
-          <h5 ref={(_subtitle) => (subtitle = _subtitle)}>
-            Увага!
-            <br />
-            Сайт працює в тестовому режимі. Певні елементи є неактивними. <br />{" "}
-            Адміністрація сайту приносить вибачення за тимчасові незручності...
-          </h5>
-          <button onClick={closeModal}>Закрити</button>
-        </div>
-      </Modal>
-    </div>
+    <Router>
+      <div className="App">
+        <NavPanel />
+        <Content showModal={(flag) => showModalHandel(flag)} />
+        <Footer />
+        <Modal
+          isOpen={modalIsOpen}
+          onAfterOpen={afterOpenModal}
+          onRequestClose={closeModal}
+          style={customStyles}
+          contentLabel="Example Modal">
+          <div
+            className="modal-content"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+            }}>
+            <h5 ref={(_subtitle) => (subtitle = _subtitle)}>
+              Увага!
+              <br />
+              Сайт працює в тестовому режимі. Певні елементи є неактивними.{" "}
+              <br /> Адміністрація сайту приносить вибачення за тимчасові
+              незручності...
+            </h5>
+            <button onClick={closeModal}>Закрити</button>
+          </div>
+        </Modal>
+      </div>
+    </Router>
   );
 }
 
