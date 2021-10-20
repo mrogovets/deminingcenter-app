@@ -1,0 +1,15 @@
+.title-description {
+  color: red;
+  font-weight: 600;
+  text-align: center;
+}
+.subTitle-description {
+  color: blue;
+  font-weight: 600;
+  text-align: center;
+}
+.text-description {
+  font-size: large;
+  text-align: justify;
+  text-indent: 30px;
+}
