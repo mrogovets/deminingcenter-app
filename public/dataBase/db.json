@@ -9,13 +9,13 @@
     "id": 1,
     "title": "Ліцензії на провадження освітньої діяльності",
     "imgName": "license",
-    "linkDoc": ""
+    "linkDoc": "dataBase/docs/license.pdf"
   },
   {
     "id": 2,
     "title": "Свідотства про атестацію закладу професійної (професійно-технічної) освіти",
     "imgName": "licensAatestation",
-    "linkDoc": ""
+    "linkDoc": "dataBase/docs/licensAatestation.pdf"
   },
   {
     "id": 3,
@@ -39,43 +39,43 @@
     "id": 6,
     "title": "Ліцензований обсяг та фактична кількість осіб, які навчаються у закладі освіти",
     "imgName": "licenseVolume",
-    "linkDoc": ""
+    "linkDoc": "dataBase/docs/licenseVolume.pdf"
   },
   {
     "id": 7,
     "title": "Мова (мови) освітнього процесу",
     "imgName": "language",
-    "linkDoc": ""
+    "linkDoc": "dataBase/docs/language.pdf"
   },
   {
     "id": 8,
     "title": "Наявність вакантних посад, порядок і умови проведення конкурсу на їх заміщення (у разі його проведення)",
     "imgName": "vacant",
-    "linkDoc": ""
+    "linkDoc": "dataBase/docs/vacant.pdf"
   },
   {
     "id": 9,
     "title": "Матеріально-технічне забезпечення закладу освіти (згідно з ліцензійними умовами)",
     "imgName": "materialSup",
-    "linkDoc": ""
+    "linkDoc": "dataBase/docs/materialSup.pdf"
   },
   {
     "id": 10,
     "title": "Наявність гуртожитків та вільних місць у них, розмір плати за проживання",
     "imgName": "dormettory",
-    "linkDoc": ""
+    "linkDoc": "dataBase/docs/dormettory.pdf"
   },
   {
     "id": 11,
     "title": "Результати моніторингу якості освіти",
     "imgName": "resultEducation",
-    "linkDoc": ""
+    "linkDoc": "dataBase/docs/resultEducation.pdf"
   },
   {
     "id": 12,
     "title": "Річний звіт про діяльність закладу освіти",
     "imgName": "annualReport",
-    "linkDoc": ""
+    "linkDoc": "dataBase/docs/annualReport.pdf"
   },
   {
     "id": 13,
@@ -99,7 +99,7 @@
     "id": 16,
     "title": "Перелік додаткових освітніх та інших послуг, їх вартівсть порядок надання та оплати",
     "imgName": "extraList",
-    "linkDoc": ""
+    "linkDoc": "dataBase/docs/extraList.pdf"
   },
   {
     "id": 17,
@@ -129,18 +129,18 @@
     "id": 21,
     "title": "Кошторис",
     "imgName": "wallet",
-    "linkDoc": ""
+    "linkDoc": "dataBase/docs/wallet.pdf"
   },
   {
     "id": 22,
     "title": "Фінансовий звіт про надходження та використання всіх отриманих коштів",
     "imgName": "financeReport",
-    "linkDoc": ""
+    "linkDoc": "dataBase/docs/financeReport.pdf"
   },
   {
     "id": 23,
     "title": "Інформація про перелік товарів, робіт і послуг, отриманих з інших джерел як благодійна допомога, із зазначенням їх вартості",
     "imgName": "financeHelp",
-    "linkDoc": ""
+    "linkDoc": "dataBase/docs/financeHelp.pdf"
   }
 ]
