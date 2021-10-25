@@ -13,3 +13,13 @@
   text-align: justify;
   text-indent: 30px;
 }
+
+ul {
+  margin-top: 0;
+}
+
+li {
+  font-size: large;
+  text-align: justify;
+  text-indent: 30px;
+}
